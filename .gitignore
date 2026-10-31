@@ -1,0 +1,45 @@
+# Dependencies and package-manager caches (keep lockfiles)
+node_modules/
+.pnpm-store/
+.npm/
+
+# Build, tooling and test outputs
+dist/
+dist-ssr/
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+.vite/
+.cache/
+.turbo/
+*.tsbuildinfo
+*.log
+logs/
+
+# Local environment and credentials (publish reviewed templates only)
+.env
+.env.*
+!.env.example
+*.local
+.aws/
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local editor, agent and hosting metadata
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.codex/
+.agents/
+.cursor/
+.antigravity/
+.vercel/
+.netlify/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
